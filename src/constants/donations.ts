@@ -30,7 +30,7 @@ export const donations: DonationType[] = [
   },
   {
     id: generateId(),
-    logo: "/assets/logos/hdf.png",
+    logo: "/assets/logos/hdf.svg",
     name: "Human Developement Fund",
     link: "https://hdfund.org/",
     image: [

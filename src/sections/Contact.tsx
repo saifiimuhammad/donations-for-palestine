@@ -1,4 +1,4 @@
-import { Mail, MessageCircle } from "lucide-react";
+import { GitFork, Mail, MessageCircle } from "lucide-react";
 
 const ContactUs = () => {
   return (
@@ -25,6 +25,12 @@ const ContactUs = () => {
             className="flex items-center gap-2 text-white bg-blue-600 hover:bg-blue-700 px-5 py-3 rounded-md transition w-full sm:w-auto justify-center"
           >
             <Mail size={18} /> Email Us
+          </a>
+          <a
+            href="https://github.com/saifiimuhammad/donations-for-palestine"
+            className="flex items-center gap-2 text-white bg-black hover:bg-black/80 px-5 py-3 rounded-md transition w-full sm:w-auto justify-center"
+          >
+            <GitFork size={18} /> Fork on Github
           </a>
         </div>
       </div>
