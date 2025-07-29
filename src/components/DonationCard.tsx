@@ -8,6 +8,12 @@ import { DonationType } from "@/constants/donations";
 const DonationCard = ({ value }: { value: DonationType }) => {
   const [imageIndex, setImageIndex] = useState(0);
 
+  const [hasMounted, setHasMounted] = useState(false);
+
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
   useEffect(() => {
     const interval = setInterval(() => {
       setImageIndex((prev) => (prev + 1) % value.image.length);
@@ -18,12 +24,16 @@ const DonationCard = ({ value }: { value: DonationType }) => {
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 transition hover:shadow-xl flex flex-col">
       <div className="relative w-full h-48 sm:h-56 lg:h-64">
-        <Image
-          src={value.image[imageIndex]}
-          alt={value.name}
-          fill
-          className="object-cover w-full h-full transition-all duration-500 ease-in-out"
-        />
+        {hasMounted && (
+          <Image
+            src={value.image[hasMounted ? imageIndex : 0]}
+            alt={value.name}
+            fill
+            sizes="100%"
+            priority
+            className="object-cover w-full h-full transition-all duration-500 ease-in-out"
+          />
+        )}
         <Image
           src={value.logo}
           alt={`${value.name} logo`}

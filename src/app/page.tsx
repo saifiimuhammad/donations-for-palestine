@@ -4,10 +4,10 @@ import Hero from "@/sections/Hero";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen">
+    <main className="w-full h-screen">
       <Hero />
       <DonationList />
       <Contact />
-    </div>
+    </main>
   );
 }
