@@ -14,7 +14,7 @@ Due to misinformation and scams online, many people are unsure **where to donate
 
 ## 🌐 Live Website
 
-👉 [Visit Site Here](https://your-deployed-site-link.com)
+👉 [Visit Site Here](https://donations-for-palestine.vercel.app/)
 
 ---
 
@@ -25,20 +25,6 @@ Due to misinformation and scams online, many people are unsure **where to donate
 - **TypeScript**
 - **Mobile-First Design**
 - **SEO & Accessibility Optimized**
-
----
-
-## 📁 Folder Structure
-
-/public
-├─ favicon.ico
-├─ site.webmanifest
-├─ images/...
-
-/app
-├─ layout.tsx
-├─ page.tsx
-└─ components/
 
 ---
 

@@ -9,7 +9,7 @@ const robotoCondensed = Roboto_Condensed({
   variable: "--font-roboto-condensed",
 });
 
-const MY_URI = "https://yourdomain.com";
+const MY_URI = "https://donations-for-palestine.vercel.app";
 
 export const metadata: Metadata = {
   title: "Trusted Donations for Palestine | Verified Pakistani Charities",
