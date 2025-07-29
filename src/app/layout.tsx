@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Roboto_Condensed } from "next/font/google";
 
@@ -87,6 +88,7 @@ export default function RootLayout({
         />
       </head>
       <body>{children}</body>
+      <Analytics />
     </html>
   );
 }

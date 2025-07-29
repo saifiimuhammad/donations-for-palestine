@@ -2,18 +2,12 @@
 
 const Hero = ({ scrollToDonation }: { scrollToDonation: () => void }) => {
   return (
-    <section className="w-full min-h-screen relative">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-      >
-        <source src="/assets/videos/hero_background.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-
+    <section
+      className="w-full min-h-screen bg-cover bg-no-repeat"
+      style={{
+        backgroundImage: "url(/assets/images/hero-back.jpg)",
+      }}
+    >
       <div className="w-full min-h-screen bg-black/50 flex flex-col justify-center items-start px-4 sm:px-12 lg:px-22 py-16">
         <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-white font-roboto leading-tight">
           Trusted Donations
