@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Donation for Palestine
 
-## Getting Started
+This is a simple, fast, and responsive single-page website that curates **trusted donation links** for Palestine. The goal is to help Muslims and people around the world quickly find reliable platforms to donate and support the oppressed in Gaza and other affected regions.
 
-First, run the development server:
+## 🕌 Purpose
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Due to misinformation and scams online, many people are unsure **where to donate**. This website solves that by:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Listing **verified and trusted donation organizations**
+- Offering a **clean UI** with no distractions
+- Keeping the website **lightweight, mobile-friendly**, and fast-loading
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Live Website
 
-## Learn More
+👉 [Visit Site Here](https://your-deployed-site-link.com)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Built With
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js 14** (App Router)
+- **Tailwind CSS**
+- **TypeScript**
+- **Mobile-First Design**
+- **SEO & Accessibility Optimized**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+/public
+├─ favicon.ico
+├─ site.webmanifest
+├─ images/...
+
+/app
+├─ layout.tsx
+├─ page.tsx
+└─ components/
+
+---
+
+## 🧠 Features
+
+- ✅ Carousel for donation banners
+- ✅ Light and fast performance
+- ✅ Custom mobile UI
+- ✅ Fully responsive
+- ✅ SEO meta tags + favicon
+- ✅ Direct links to donation websites
+
+---
+
+## 🤝 Contribution
+
+This is a humble effort. If you know more **verified donation platforms**, feel free to:
+
+1. Fork this repo
+2. Add the new organization data in **/constants/donations.ts** file
+3. Create a PR
+
+Or send me the link on [WhatsApp](https://wa.me/923243191677) or [Email](mailto:muhammadsaifarain786@gmail.com)
+
+---
+
+## 🧕 Note
+
+> I am not affiliated with any listed organization. The purpose is only to **help Muslims donate to verified sources**.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
