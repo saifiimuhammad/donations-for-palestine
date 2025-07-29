@@ -1,8 +1,6 @@
 "use client";
 
-const Hero = () => {
-  const handleOnClick = () => {};
-
+const Hero = ({ scrollToDonation }: { scrollToDonation: () => void }) => {
   return (
     <section className="w-full min-h-screen relative">
       <video
@@ -28,7 +26,7 @@ const Hero = () => {
         </p>
         <button
           className="bg-white font-bold px-5 py-3 rounded mt-4 hover:bg-white/90 text-sm sm:text-base cursor-pointer"
-          onClick={handleOnClick}
+          onClick={scrollToDonation}
         >
           Donate Now
         </button>
