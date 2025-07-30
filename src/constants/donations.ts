@@ -17,6 +17,19 @@ export type DonationType = {
 export const donations: DonationType[] = [
   {
     id: generateId(),
+    logo: "/assets/logos/pakaid.svg",
+    name: "Pak Aid Welfare Trust",
+    link: "https://pakaid.org.pk/project_info.php?id=175&name=RESCUE%20IN%20GHAZA",
+    image: [
+      "/assets/images/pakaid/1.jpg",
+      "/assets/images/pakaid/2.jpg",
+      "/assets/images/pakaid/3.jpg",
+    ],
+    description:
+      "PAWT excels in global outreach through strategic partnerships with entities like Pak aid USA, Pak Afghan Cooperation Forum, Baseer Association Turkey, and Sened International. This enables PAWT to leverage its substantial humanitarian experience in Pakistan and extend its impact to regions including Afghanistan, Turkey, and Palestine.",
+  },
+  {
+    id: generateId(),
     logo: "/assets/logos/alkhidmat.svg",
     name: "Alkhidmat Foundation",
     link: "https://alkhidmat.org/appeal/emergency-appeal-palestine-save-lives-in-gaza-today",
